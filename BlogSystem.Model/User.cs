@@ -17,8 +17,17 @@ namespace BlogSystem.Model
         [Required]
         public string ImagePath { get; set; }
 
+        /// <summary>
+        /// 粉丝数
+        /// </summary>
         public int FansCount { get; set; }
+        /// <summary>
+        /// 关注数
+        /// </summary>
         public int FocusCount { get; set; }
+        /// <summary>
+        /// 网站名称
+        /// </summary>
         public string SiteName { get; set; }
     }
 }

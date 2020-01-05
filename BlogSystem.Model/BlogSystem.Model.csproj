@@ -48,8 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Article.cs" />
+    <Compile Include="ArticleToCategory.cs" />
     <Compile Include="BaseEntity.cs" />
+    <Compile Include="BlogCategory.cs" />
     <Compile Include="BlogContext.cs" />
+    <Compile Include="Comment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>
